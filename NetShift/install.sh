@@ -27,7 +27,7 @@ elif [[ "$choice" == "N" || "$choice" == "n" ]]; then
     rm -rf /usr/share/netshift
     rm -f /usr/bin/netshift
 
-    echo "[!] IpShifter has been removed successfully."
+    echo "[!] NetShift has been removed successfully."
 else
     # Invalid choice
     echo "[!] Invalid choice. Exiting."
