@@ -6,8 +6,8 @@ NetShift is a powerful Ethical Hacking tool designed to enhance your anonymity a
 ## Features
 - Automatic installation of required dependencies (`Tor`, `curl`, `jq`).
 - Periodic IP changes via Tor to maintain anonymity.
-- Display of the current Tor-routed IP address after every rotation.
-- User-defined rotation interval and cycle count (or infinite mode).
+- Display of the current Tor-routed IP address after every change.
+- User-defined change interval and cycle count (or infinite mode).
 - SOCKS proxy setup instructions for routing your applications through Tor.
 ## Requirements
 - A Debian-based Linux distribution (e.g., Ubuntu,kalilinux).
@@ -62,7 +62,7 @@ To route your internet traffic through Tor, configure your applications to use t
 
 2. **IP Rotation:**
 
-- Prompts the user for a rotation interval (default: 60 seconds) and number of rotations (0 for infinite).
+- Prompts the user for a change interval (default: 60 seconds) and number of rotations (0 for infinite).
 - Reloads the Tor service to change identity and fetches the new IP address.
 
   
