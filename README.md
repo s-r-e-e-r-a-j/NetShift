@@ -6,7 +6,7 @@ NetShift is a powerful Ethical Hacking tool designed to enhance your anonymity a
 ## Features
 - Automatic installation of required dependencies (`Tor`, `curl`, `jq`).
 - Periodic IP Address change via Tor to maintain anonymity.
-- Display of the current Tor-routed IP address after every change.
+- Display of the current Tor-routed IP address after every IP Address change.
 - User-defined IP Address change interval and cycle count (or infinite mode).
 - SOCKS proxy setup instructions for routing your applications through Tor.
 ## Requirements
