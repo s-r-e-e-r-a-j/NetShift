@@ -62,7 +62,7 @@ To route your internet traffic through Tor, configure your applications to use t
 
 2. **IP change:**
 
-- Prompts the user for a change interval (default: 60 seconds) and number of rotations (0 for infinite).
+- Prompts the user for a change interval (default: 60 seconds) and number of changes (0 for infinite).
 - Reloads the Tor service to change identity and fetches the new IP address.
 
   
@@ -92,7 +92,7 @@ Change your SOCKS to 127.0.0.1:9050
 ```
 ## Stopping NetShift
 - **Infinite Mode:** Press `Ctrl+C` to stop.
-- **Fixed Rotations:** The script will automatically terminate after completing the specified number of cycles.
+- **Fixed Changes:** The script will automatically terminate after completing the specified number of cycles.
 
 ## uninstallation
 ```bash
