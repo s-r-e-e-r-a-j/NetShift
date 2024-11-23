@@ -29,10 +29,7 @@ cd NetShift
 2. Run the install.sh script to set up NetShift:
 
 ```bash
-chmod +x install.sh
-```
-```bash
-sudo ./install.sh
+sudo bash install.sh
 ```
 Then Enter `y` For Install
 
