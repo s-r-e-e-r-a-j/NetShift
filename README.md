@@ -43,7 +43,7 @@ After installation, start `NetShift` by running:
 ```bash
 sudo netshift
 ```
-After Running The tool it will automatically Install necessary dependencies (Tor, curl, jq) if it is not installed on your system.
+**After Running The tool it will automatically Install necessary dependencies (Tor, curl, jq) if it is not installed on your system**.
 
 **Step 2: Configure SOCKS Proxy**
 To route your internet traffic through Tor, configure your applications to use the Tor SOCKS proxy:
