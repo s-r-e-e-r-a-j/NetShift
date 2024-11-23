@@ -1,11 +1,11 @@
 
 ## NetShift
 
-NetShift is a powerful tool designed to enhance your anonymity and privacy on the internet by leveraging the Tor network. It automatically rotates your IP address, making it difficult for anyone to track your online activities. NetShift simplifies the process of configuring and using Tor, ensuring a seamless experience for both beginners and advanced users.
+NetShift is a powerful tool designed to enhance your anonymity and privacy on the internet by leveraging the Tor network. It automatically changes your IP address, making it difficult for anyone to track your online activities. NetShift simplifies the process of configuring and using Tor, ensuring a seamless experience for both beginners and advanced users.
 
 ## Features
 - Automatic installation of required dependencies (`Tor`, `curl`, `jq`).
-- Periodic IP rotation via Tor to maintain anonymity.
+- Periodic IP changes via Tor to maintain anonymity.
 - Display of the current Tor-routed IP address after every rotation.
 - User-defined rotation interval and cycle count (or infinite mode).
 - SOCKS proxy setup instructions for routing your applications through Tor.
