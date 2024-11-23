@@ -56,7 +56,7 @@ To route your internet traffic through Tor, configure your applications to use t
 - **Firefox:**
 
 1. Go to `Settings > Network Settings > Manual Proxy Configuration`.
-2. Set **SOCKS Host** to `127.0.0.1 and **Port** to `9050`.
+2. Set **SOCKS Host** to `127.0.0.1 `and **Port** to `9050`.
 3. Select SOCKS v5.
 4. Save the settings.
 
