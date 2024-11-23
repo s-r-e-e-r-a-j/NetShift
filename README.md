@@ -51,7 +51,7 @@ To route your internet traffic through Tor, configure your applications to use t
 - **Proxy Address:** `127.0.0.1`
 - **Port:** `9050`
 
-- 
+  
   ### Example Configuration:
 - **Firefox:**
 
