@@ -1,7 +1,7 @@
 
 ## NetShift
 
-NetShift is a powerful Ethical Hacking tool designed to enhance your anonymity and privacy on the internet by leveraging the Tor network. It automatically changes your IP address, making it difficult for anyone to track your online activities. NetShift simplifies the process of configuring and using Tor, ensuring a seamless experience for both beginners and advanced users.
+NetShift is a powerful Ethical Hacking tool designed to enhance your anonymity and privacy on the internet by leveraging the Tor network. It automatically changes your IP address, making it difficult for anyone to track your online activities. 
 
 ## Features
 - Automatic installation of required dependencies (`Tor`, `curl`, `jq`).
@@ -84,7 +84,7 @@ To route your internet traffic through Tor, configure your applications to use t
 Change your SOCKS to 127.0.0.1:9050
 
 [+] Enter interval (seconds) between IP changes [default: 60]: 30
-[+] Enter number of IP rotations (0 for infinite): 5
+[+] Enter number of IP changes (0 for infinite): 5
 [~] Changing identity...
 [+] New IP: 185.220.101.34
 [~] Changing identity...
