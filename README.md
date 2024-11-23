@@ -5,9 +5,9 @@ NetShift is a powerful Ethical Hacking tool designed to enhance your anonymity a
 
 ## Features
 - Automatic installation of required dependencies (`Tor`, `curl`, `jq`).
-- Periodic IP changes via Tor to maintain anonymity.
+- Periodic IP Address change via Tor to maintain anonymity.
 - Display of the current Tor-routed IP address after every change.
-- User-defined change interval and cycle count (or infinite mode).
+- User-defined IP Address change interval and cycle count (or infinite mode).
 - SOCKS proxy setup instructions for routing your applications through Tor.
 ## Requirements
 - A Debian-based Linux distribution (e.g., Ubuntu,kalilinux).
@@ -62,11 +62,11 @@ To route your internet traffic through Tor, configure your applications to use t
 
 2. **IP change:**
 
-- Prompts the user for a change interval (default: 60 seconds) and number of changes (0 for infinite).
+- Prompts the user for Enter Ip Address change interval (default: 60 seconds) and number of IP address change (0 for infinite).
 - Reloads the Tor service to change identity and fetches the new IP address.
 
   
-3 **Monitor New IP:** Displays the Tor-assigned IP after each change to verify successful anonymization.
+3 **Monitor New IP:** Displays the Tor-assigned IP after each IP Address change to verify successful anonymization.
 
 ## Example Output
 ```plaintext
@@ -92,7 +92,7 @@ Change your SOCKS to 127.0.0.1:9050
 ```
 ## Stopping NetShift
 - **Infinite Mode:** Press `Ctrl+C` to stop.
-- **Fixed Changes:** The script will automatically terminate after completing the specified number of cycles.
+- **Fixed IP Address Change:** The script will automatically terminate after completing the specified number of cycles.
 
 ## uninstallation
 ```bash
