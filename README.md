@@ -60,13 +60,13 @@ To route your internet traffic through Tor, configure your applications to use t
 ## How It Works
 1. **Start Tor Service**: **NetShift** automatically starts the Tor service when launched.
 
-2. **IP Rotation:**
+2. **IP change:**
 
 - Prompts the user for a change interval (default: 60 seconds) and number of rotations (0 for infinite).
 - Reloads the Tor service to change identity and fetches the new IP address.
 
   
-3 **Monitor New IP:** Displays the Tor-assigned IP after each rotation to verify successful anonymization.
+3 **Monitor New IP:** Displays the Tor-assigned IP after each change to verify successful anonymization.
 
 ## Example Output
 ```plaintext
