@@ -95,7 +95,7 @@ execute_rotation() {
     read -r interval
     interval=${interval:-60}
 
-    echo -ne "${YELLOW}[+] Enter number of IP rotations (0 for infinite): ${RESET}"
+    echo -ne "${YELLOW}[+] Enter number of IP changes (0 for infinite): ${RESET}"
     read -r cycles
     cycles=${cycles:-0}
 
