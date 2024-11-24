@@ -10,7 +10,7 @@ NetShift is a powerful Ethical Hacking tool designed to enhance your anonymity a
 - User-defined IP Address change interval and cycle count (or infinite mode).
 - SOCKS proxy setup instructions for routing your applications through Tor.
 ## Requirements
-- A Debian-based Linux distribution (e.g., Ubuntu,kalilinux).
+- A Debian-based Linux distribution (e.g., Ubuntu,tested on kalilinux).
 - Root privileges to install dependencies and manage the Tor service.
 - Active internet connection.
 ## Installation
