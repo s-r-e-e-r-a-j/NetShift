@@ -92,7 +92,7 @@ Change your SOCKS to 127.0.0.1:9050
 ```
 ## Stopping NetShift
 - **Infinite Mode:** Press `Ctrl+C` to stop.
-- **Fixed IP Address Change:** The script will automatically terminate after completing the specified number of cycles.
+- **Fixed IP Address Change:** The Tool will automatically terminate after completing the specified number of cycles.
 
 ## uninstallation
 ```bash
