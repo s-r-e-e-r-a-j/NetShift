@@ -109,6 +109,13 @@ Then Enter `n` for uninstall
 ## License
 This tool is open-source and available under the MIT License.
 
+
+## Disclaimer
+NetShift is for educational purposes only. Misuse of the tool could violate the terms of service of websites, services, or networks you access. Always use the tool responsibly and in accordance with applicable laws and regulations.
+
+
+
+
 ## Author
 - **Sreeraj**
 GitHub: https://github.com/s-r-e-e-r-a-j
